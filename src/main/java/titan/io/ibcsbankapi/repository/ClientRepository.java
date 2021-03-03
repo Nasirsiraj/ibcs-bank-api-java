@@ -6,5 +6,5 @@ import titan.io.ibcsbankapi.model.Client;
 
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Integer> {
-    public Client findByNid(int nid);
+    Client findByNid(int nid);
 }
